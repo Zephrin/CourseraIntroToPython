@@ -63,7 +63,7 @@ def mouseclick(clickspot):
                     card2 = x        
     else:
         if cards[card1] == cards[card2]:
-            #print "yay"
+            print "yay"
         else:
             exposed[card1] = False
             exposed[card2] = False
